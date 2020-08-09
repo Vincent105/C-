@@ -9,8 +9,16 @@ public partial class ch3_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        int i = Convert.ToInt32(Label3.Text) + 1;
-        Label3.Text = i.ToString();
+        if (!Page.IsPostBack)
+        {
+            //第一次執行
+        }
+        else 
+        {
+            int i = Convert.ToInt32(Label3.Text) + 1;
+            Label3.Text = i.ToString();
+        }
+        
     }
 
 }
