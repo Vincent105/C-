@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:TextBox ID="TextBox1" runat="server" Width="126px">預設值(Default Value)</asp:TextBox>
+&nbsp;<asp:Button ID="Button1" runat="server" OnClick="button1_click" Text="Button" />
         </div>
     </form>
 </body>

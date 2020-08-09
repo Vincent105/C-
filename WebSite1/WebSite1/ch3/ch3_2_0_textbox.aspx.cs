@@ -11,4 +11,10 @@ public partial class ch3_Default : System.Web.UI.Page
     {
 
     }
+
+    protected void button1_click(object sender, EventArgs e) 
+    {
+        TextBox1.TextMode = TextBoxMode.MultiLine;
+        TextBox1.Text = "";
+    }
 }
