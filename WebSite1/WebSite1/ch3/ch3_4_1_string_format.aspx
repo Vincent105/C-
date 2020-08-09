@@ -17,7 +17,7 @@
 &nbsp;=
             <asp:Label ID="Label1" runat="server" Text=" "></asp:Label>
             <br />
-            <asp:Button ID="Button1" runat="server" Text="開始計算" OnClick="Button1_click" />
+            <asp:Button ID="Button1" runat="server" Text="開始計算" OnClick="Button1_click" Width="353px" />
         </div>
     </form>
 </body>
