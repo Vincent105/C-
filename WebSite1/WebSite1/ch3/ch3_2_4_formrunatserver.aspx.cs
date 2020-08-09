@@ -9,14 +9,11 @@ public partial class ch3_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        Response.Write(DateTime.Now.ToLongTimeString() + " 首次執行Page_load <br>");
     }
 
-    protected void button1_click(object sender, EventArgs e) 
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
     {
-        TextBox1.TextMode = TextBoxMode.MultiLine;
-        TextBox1.Text = "動態調整";
-
-        TextBox1.BackColor = System.Drawing.Color.Aqua;
+        Response.Write(DateTime.Now.ToLongTimeString() + " 謝謝你輸入資料 ");
     }
 }
