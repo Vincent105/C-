@@ -11,6 +11,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <br />
+            <br />
             Postback 練習二<br />
             <br />
             在畫面（Page）上，按下任何按鈕或是點選控制項，<br />
@@ -19,10 +21,13 @@
             <asp:Label ID="Label3" runat="server" ForeColor="#FF3399" Text="0"></asp:Label>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" EnableTheming="True" Text="Button" />
+            <asp:Button ID="Button1" runat="server" EnableTheming="True" Text="Button" OnClick="button1_click"/>
             <br />
             <br />
             </strong>
+            <input id="Submit1" type="submit" value="HTML_Submit，仍會累加" /><br />
+            <br />
+            <input id="Button2" type="button" value="HTML_Button" />
         </div>
     </form>
 </body>

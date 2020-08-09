@@ -12,13 +12,18 @@ public partial class ch3_Default : System.Web.UI.Page
         if (!Page.IsPostBack)
         {
             //第一次執行
+            Response.Write("第一次執行Page_Load事件<br />");
         }
-        else 
+        else
         {
             int i = Convert.ToInt32(Label3.Text) + 1;
             Label3.Text = i.ToString();
-        }
-        
+            Response.Write("網頁重新執行Page_Load事件<br />");
+        }        
     }
 
+    protected void button1_click(object sender, EventArgs e) 
+    {
+        Response.Write("按下[按鈕]的事件<br />");
+    }
 }
