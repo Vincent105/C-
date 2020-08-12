@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ch3_5_1_button.aspx.cs" Inherits="ch3_ch3_5_1_button" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ch3_5_1_postback2.aspx.cs" Inherits="ch3_ch3_5_1_postback2" %>
 
 <!DOCTYPE html>
 
