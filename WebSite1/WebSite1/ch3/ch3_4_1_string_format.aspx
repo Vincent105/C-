@@ -18,6 +18,17 @@
             <asp:Label ID="Label1" runat="server" Text=" "></asp:Label>
             <br />
             <asp:Button ID="Button1" runat="server" Text="開始計算" OnClick="Button1_click" Width="353px" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>
