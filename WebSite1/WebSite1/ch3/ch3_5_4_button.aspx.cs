@@ -23,4 +23,12 @@ public partial class ch3_ch3_5_4_button : System.Web.UI.Page
             Panel1.Visible = false;
         }
     }
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        Response.Write("這個按鈕只能夠按下一次");
+
+        Button4.Text = "資料處理中";
+        Button4.Enabled = false;
+    }
 }

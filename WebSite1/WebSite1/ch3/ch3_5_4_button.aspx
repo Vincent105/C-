@@ -29,6 +29,13 @@
             <br />
             <asp:Button ID="Button3" runat="server" OnClientClick="javascript:this.disabled=true;this.document.form.submit();" Text="Button" UseSubmitBehavior="False" />
             <br />
+            <br />
+            底下的按鈕只能送出一次<br />
+            <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="click / 送出" UseSubmitBehavior="False" />
+            <br />
+            <br />
+            <asp:Button ID="Button5" runat="server" Text="click / 送出2" />
+            <br />
         </div>
     </form>
     <p>
