@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ch3_4_2_autopostback.aspx.cs" Inherits="ch3_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ch3_04_2_autopostback.aspx.cs" Inherits="ch3_Default" %>
 
 <!DOCTYPE html>
 

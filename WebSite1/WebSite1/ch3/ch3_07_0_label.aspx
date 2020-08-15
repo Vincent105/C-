@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ch3_7_0_label.aspx.cs" Inherits="ch3_ch3_7_0_label" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ch3_07_0_label.aspx.cs" Inherits="ch3_ch3_7_0_label" %>
 
 <!DOCTYPE html>
 

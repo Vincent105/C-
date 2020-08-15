@@ -65,6 +65,9 @@ public partial class ch3_Default : System.Web.UI.Page
 
 
         var name = "vincent";
-        Response.Write($"hello {name}");
+        var day = "11";
+
+        Response.Write($"hello {name},{day}");
+
     }
 }
