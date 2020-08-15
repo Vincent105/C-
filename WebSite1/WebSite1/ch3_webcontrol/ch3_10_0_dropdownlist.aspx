@@ -71,6 +71,21 @@
                 <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Submit" />
             </asp:Panel>
             <br />
+            <span class="auto-style2">Combox<br />
+            <br />
+            </span>
+            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+            <asp:DropDownList ID="DropDownList6" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList6_SelectedIndexChanged">
+                <asp:ListItem></asp:ListItem>
+                <asp:ListItem>A</asp:ListItem>
+                <asp:ListItem>B</asp:ListItem>
+                <asp:ListItem>C</asp:ListItem>
+                <asp:ListItem>D</asp:ListItem>
+            </asp:DropDownList>
+            <br />
+            <asp:Button ID="Button5" runat="server" Text="Button" OnClick="Button5_Click" />
+            <br />
+            <asp:Label ID="Label3" runat="server"></asp:Label>
             <br />
         </div>
     </form>

@@ -9,7 +9,7 @@ public partial class ch3_ch3_10_0_dropdownlist : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        TextBox3.Text = DropDownList6.SelectedValue;
     }
 
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
@@ -59,5 +59,22 @@ public partial class ch3_ch3_10_0_dropdownlist : System.Web.UI.Page
     {
         DropDownList5.Items.Add(TextBox2.Text);
         Panel1.Visible = false;
+    }
+
+    protected void DropDownList6_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        TextBox3.Text = DropDownList6.SelectedValue;
+    }
+
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        if (Label3.Text == "")
+        {
+            Label3.Text = "尚未輸入任何數字";
+        }
+        else
+        {
+            Label3.Text = "你輸入的數字是" + DropDownList6.SelectedValue;
+        }
     }
 }
