@@ -10,6 +10,21 @@ public partial class ch3_ch3_10_0_dropdownlist : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         TextBox3.Text = DropDownList6.SelectedValue;
+
+        if (!Page.IsPostBack) 
+        {
+            string str = "<select ID=selectID1 Name=selectName1>";
+            str += "<optgroup label=AAA>";
+            str += "        <option>11111</option>";
+            str += "        <option>22222</option>";
+            str += "</optgroup>";
+            str += "<optgroup label=BBB>";
+            str += "        <option>33333</option>";
+            str += "        <option>44444</option>";
+            str += "</optgroup>";
+
+            Literal1.Text = str;
+        }
     }
 
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
@@ -76,5 +91,11 @@ public partial class ch3_ch3_10_0_dropdownlist : System.Web.UI.Page
         {
             Label3.Text = "你輸入的數字是" + DropDownList6.SelectedValue;
         }
+    }
+
+    protected void Button6_Click(object sender, EventArgs e)
+    {
+        Response.Write("透過ID來抓 --- " + Request["selectID1"]);
+        Response.Write("透過Name來抓 --- " + Request["selectName1"]);
     }
 }

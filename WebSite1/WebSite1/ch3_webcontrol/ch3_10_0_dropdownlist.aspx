@@ -87,6 +87,13 @@
             <br />
             <asp:Label ID="Label3" runat="server"></asp:Label>
             <br />
+            <br />
+	透過 Literal產生HTML5的下拉式選單（有Group），再透過Request來抓取值<br />
+            <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+            <br />
+            <br />
+            <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Button" />
+            <br />
         </div>
     </form>
 </body>
