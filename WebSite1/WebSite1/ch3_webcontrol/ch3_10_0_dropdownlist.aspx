@@ -94,6 +94,15 @@
             <br />
             <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Button" />
             <br />
+            <br />
+            <br />
+            <br />
+            <asp:ListBox ID="ListBox1" runat="server" DataSourceID="SqlDataSource2" DataTextField="Name" DataValueField="BusinessEntityID" Height="142px" Width="351px"></asp:ListBox>
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:AdventureWorks2016ConnectionString %>" SelectCommand="SELECT top 100 * FROM Sales.Store"></asp:SqlDataSource>
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     </form>
 </body>

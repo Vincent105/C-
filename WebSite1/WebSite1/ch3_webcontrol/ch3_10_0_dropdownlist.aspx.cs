@@ -98,4 +98,6 @@ public partial class ch3_ch3_10_0_dropdownlist : System.Web.UI.Page
         Response.Write("透過ID來抓 --- " + Request["selectID1"]);
         Response.Write("透過Name來抓 --- " + Request["selectName1"]);
     }
+
+
 }
