@@ -22,8 +22,28 @@
             <br />
             <asp:Label ID="Label1" runat="server"></asp:Label>
             <br />
-        <div>
-        </div>
+            <br />
+            <br />
+            <br />
+            Listbox 移動<br />
+            <asp:ListBox ID="ListBox2" runat="server">
+                <asp:ListItem>左一</asp:ListItem>
+                <asp:ListItem>左二</asp:ListItem>
+                <asp:ListItem>左三</asp:ListItem>
+            </asp:ListBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:ListBox ID="ListBox3" runat="server">
+                <asp:ListItem>右一</asp:ListItem>
+                <asp:ListItem>右二</asp:ListItem>
+                <asp:ListItem>右三</asp:ListItem>
+            </asp:ListBox>
+            <br />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="移動到右邊-&gt;" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="移動至左邊&lt;-" />
+            <br />
+            <asp:Label ID="Label2" runat="server"></asp:Label>
+            <br />
     </form>
 </body>
 </html>
