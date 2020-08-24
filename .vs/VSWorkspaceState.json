@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\firstMVC",
+    "\\Project_MIS2000lab",
+    "\\WebSite1"
   ],
-  "SelectedNode": "\\obj",
+  "SelectedNode": "\\firstMVC\\firstMVC.sln",
   "PreviewInSolutionExplorer": false
 }
