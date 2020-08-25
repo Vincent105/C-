@@ -2,6 +2,4 @@
 # 這個 .gitignore 檔案由 Microsoft(R) Visual Studio 自動建立。
 ################################################################################
 
-/firstMVC/firstMVC/App_Data
-/MvcExamples for VS 2019/Chapter01/firstMVC/App_Data/Northwind_log.ldf
-/MvcExamples for VS 2019/Chapter01/firstMVC/App_Data/Northwind.mdf
+
