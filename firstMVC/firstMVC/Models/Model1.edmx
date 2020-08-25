@@ -10,8 +10,8 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="subject" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="content" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Subject" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
           <Property Name="PostDateTime" Type="datetime" Nullable="false" />
         </EntityType>
         <EntityContainer Name="Database1ModelStoreContainer">
@@ -27,8 +27,8 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="PostDateTime" Type="DateTime" Nullable="false" Precision="3" />
         </EntityType>
         <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
@@ -44,8 +44,8 @@
             <EntityTypeMapping TypeName="Database1Model.Table">
               <MappingFragment StoreEntitySet="Table">
                 <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="subject" ColumnName="subject" />
-                <ScalarProperty Name="content" ColumnName="content" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
                 <ScalarProperty Name="PostDateTime" ColumnName="PostDateTime" />
               </MappingFragment>
             </EntityTypeMapping>
