@@ -84,3 +84,8 @@ C:\C#Code\firstMVC\firstMVC\obj\Debug\firstMVC.csproj.CoreCompileInputs.cache
 C:\C#Code\firstMVC\firstMVC\obj\Debug\firstMVC.csproj.CopyComplete
 C:\C#Code\firstMVC\firstMVC\obj\Debug\firstMVC.dll
 C:\C#Code\firstMVC\firstMVC\obj\Debug\firstMVC.pdb
+C:\C#Code\firstMVC\firstMVC\bin\EntityFramework.dll
+C:\C#Code\firstMVC\firstMVC\bin\EntityFramework.SqlServer.dll
+C:\C#Code\firstMVC\firstMVC\bin\EntityFramework.xml
+C:\C#Code\firstMVC\firstMVC\bin\EntityFramework.SqlServer.xml
+C:\C#Code\firstMVC\firstMVC\bin\zh-Hant\EntityFramework.resources.dll
