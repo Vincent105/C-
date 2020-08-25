@@ -15,8 +15,8 @@ namespace firstMVC.Models
     public partial class Table
     {
         public int Id { get; set; }
-        public string subject { get; set; }
-        public string content { get; set; }
+        public string Subject { get; set; }
+        public string Content { get; set; }
         public System.DateTime PostDateTime { get; set; }
     }
 }
