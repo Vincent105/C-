@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin\\Release",
     "\\firstMVC",
-    "\\Project_MIS2000lab",
-    "\\WebSite1"
+    "\\firstMVC\\firstMVC\\Controllers",
+    "\\firstMVC\\firstMVC\\Views\\Products",
+    "\\MvcExamples for VS 2019\\Chapter02",
+    "\\MvcExamples for VS 2019\\Chapter02\\MvcBasic",
+    "\\MvcExamples for VS 2019\\Chapter02\\MvcBasic\\MvcBasic",
+    "\\MvcExamples for VS 2019\\Chapter02\\MvcBasic\\MvcBasic\\Views",
+    "\\MvcExamples for VS 2019\\Chapter02\\MvcBasic\\MvcBasic\\Views\\PassData"
   ],
   "SelectedNode": "\\firstMVC\\firstMVC.sln",
   "PreviewInSolutionExplorer": false
