@@ -1,3 +1,0 @@
-﻿短網址  goo.gl/74z7LJ
-
-https://www.microsoft.com/net/tutorials/csharp/getting-started/hello-world
