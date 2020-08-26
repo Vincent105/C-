@@ -6,7 +6,7 @@ namespace chapter01
 {
     public class HeyYou
     {
-        static void Main(string[] args) 
+        static void Main0114(string[] args) 
         {
             string firstname;
             string lastname;
