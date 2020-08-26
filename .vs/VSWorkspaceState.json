@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\C70",
+    "\\C70\\chapter01"
   ],
+  "SelectedNode": "\\C70\\chapter01\\Listing01.01.HelloWorld.cs",
   "PreviewInSolutionExplorer": false
 }
