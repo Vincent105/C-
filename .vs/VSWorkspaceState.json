@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\C70",
-    "\\C70\\chapter01"
+    "\\C70\\chapter01",
+    "\\EssentialCSharp70",
+    "\\EssentialCSharp70\\src",
+    "\\EssentialCSharp70\\src\\Chapter01",
+    "\\EssentialCSharp70\\Utilities"
   ],
-  "SelectedNode": "\\C70\\chapter01\\Listing01.01.HelloWorld.cs",
+  "SelectedNode": "\\EssentialCSharp70\\src\\Chapter01\\Chapter01.sln",
   "PreviewInSolutionExplorer": false
 }
