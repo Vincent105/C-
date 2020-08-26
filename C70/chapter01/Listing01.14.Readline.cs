@@ -19,6 +19,7 @@ namespace chapter01
             lastname = System.Console.ReadLine();
 
             System.Console.WriteLine("Your name is " + firstname + lastname);
+            System.Console.WriteLine($"Your name is {firstname}{lastname}");
 
         }
     }
