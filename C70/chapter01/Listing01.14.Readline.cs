@@ -6,7 +6,7 @@ namespace chapter01
 {
     public class HeyYou
     {
-        static void Main0114(string[] args) 
+        static void Main(string[] args) 
         {
             string firstname;
             string lastname;
@@ -20,6 +20,7 @@ namespace chapter01
 
             System.Console.WriteLine("Your name is " + firstname + lastname);
             System.Console.WriteLine($"Your name is {firstname}{lastname}");
+            System.Console.WriteLine("Your full name is {0}{1}.", firstname, lastname);
 
         }
     }
