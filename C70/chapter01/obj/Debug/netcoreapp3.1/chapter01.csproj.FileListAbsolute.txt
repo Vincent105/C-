@@ -10,3 +10,4 @@ C:\C#Code\C70\chapter01\obj\Debug\netcoreapp3.1\chapter01.csproj.CoreCompileInpu
 C:\C#Code\C70\chapter01\obj\Debug\netcoreapp3.1\chapter01.dll
 C:\C#Code\C70\chapter01\obj\Debug\netcoreapp3.1\chapter01.pdb
 C:\C#Code\C70\chapter01\obj\Debug\netcoreapp3.1\chapter01.genruntimeconfig.cache
+C:\C#Code\C70\chapter01\obj\Debug\netcoreapp3.1\chapter01.csprojAssemblyReference.cache

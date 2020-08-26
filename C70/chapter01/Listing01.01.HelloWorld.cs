@@ -4,7 +4,7 @@ namespace chapter01
 {
     public class HelloWorld
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             System.Console.WriteLine("Hello, My name is Vincent");
             System.Console.WriteLine("Up");System.Console.WriteLine("Down");
@@ -19,7 +19,7 @@ namespace chapter01
             System.Console.WriteLine(max);
 
             min = "test2";
-            System.Console.WriteLine(min);
+            System.Console.WriteLine(min); 
         }
 
     }
