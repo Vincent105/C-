@@ -10,4 +10,3 @@ C:\C#Code\C70\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompile
 C:\C#Code\C70\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\C#Code\C70\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\C#Code\C70\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
-C:\C#Code\C70\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache

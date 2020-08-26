@@ -17,4 +17,3 @@ C:\C#Code\C70\C70\obj\Debug\netcoreapp3.1\staticwebassets\C70.StaticWebAssets.xm
 C:\C#Code\C70\C70\obj\Debug\netcoreapp3.1\C70.dll
 C:\C#Code\C70\C70\obj\Debug\netcoreapp3.1\C70.pdb
 C:\C#Code\C70\C70\obj\Debug\netcoreapp3.1\C70.genruntimeconfig.cache
-C:\C#Code\C70\C70\obj\Debug\netcoreapp3.1\C70.csprojAssemblyReference.cache

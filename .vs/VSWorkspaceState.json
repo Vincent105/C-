@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\C70",
+    "\\C70\\chapter01",
+    "\\EssentialCSharp70\\src",
+    "\\EssentialCSharp70\\src\\Chapter01"
   ],
+  "SelectedNode": "\\C70\\C70.sln",
   "PreviewInSolutionExplorer": false
 }
