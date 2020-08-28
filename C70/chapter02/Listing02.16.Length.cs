@@ -6,7 +6,7 @@ namespace chapter02
 {
     class Class0216
     {
-        static void Main() 
+        static void Main0216() 
         {
             string palindrome, upperPalindrome;
             System.Console.Write("Enter the palindrome:");
