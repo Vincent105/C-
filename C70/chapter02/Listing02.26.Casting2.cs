@@ -6,7 +6,7 @@ namespace chapter02
 {
     class Class0226
     {
-        static void Main()
+        static void Main0226()
         {
             string text = "9.11E-31";
             float kg = float.Parse(text);
