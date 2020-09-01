@@ -9,14 +9,21 @@ namespace MvcMicro.Controllers
     public class HelloWorldController : Controller
     {
         // GET: HelloWorld
+
+        /*
         public string Index()
         {
             return "This is my <b>default</b> page...";
         }
-        public string Welcome(string name, int numTimes = 1)
+        */
+        public ActionResult Index()
         {
-            return "This is <b>welcome</b> method...";
-            return HttpUtility.HtmlEncode("Hello",);
+            return View();
+        }
+        public string Welcome(string name, int ID = 1)
+        {
+            // https://localhost:44334/HelloWorld/Welcome/1?name=vin
+            return HttpUtility.HtmlEncode("Hello " + name + "NumTimes is: " + ID);
         }
     }
 }
