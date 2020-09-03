@@ -6,7 +6,7 @@ namespace chapter04
 {
     class Class0447
     {
-        static void Main()
+        static void Main0447()
         {
             char[] cells = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
