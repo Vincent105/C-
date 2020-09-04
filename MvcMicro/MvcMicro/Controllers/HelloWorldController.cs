@@ -20,10 +20,20 @@ namespace MvcMicro.Controllers
         {
             return View();
         }
+        /*
         public string Welcome(string name, int ID = 1)
         {
             // https://localhost:44334/HelloWorld/Welcome/1?name=vin
-            return HttpUtility.HtmlEncode("Hello " + name + "NumTimes is: " + ID);
+            return HttpUtility.HtmlEncode("Hello " + name + " NumTimes is: " + ID);
         }
+        */
+        public ActionResult Welcome(string name, int numTimes = 1)
+        {
+            ViewBag.Message = "Hello " + name;
+            ViewBag.NumTimes = numTimes;
+
+            return View();
+        }
+
     }
 }
