@@ -4,9 +4,9 @@ using System.Text;
 
 namespace chapter04
 {
-    class Class1
+    class Class0443
     {
-        static void Main()
+        static void Main0421()
         {
             int input;
 
