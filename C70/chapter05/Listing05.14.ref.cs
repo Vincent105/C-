@@ -6,7 +6,7 @@ namespace chapter05
 {
     class Listing0514
     {
-        static void Main()
+        static void Main0514()
         {
             string first = "hello";
             string last = "Vin";
