@@ -15,7 +15,7 @@ namespace MvcMicro.Models
         public decimal Price { get; set; }
     }
 
-    public class MovieDBContent : DbContext
+    public class MovieDBContext : DbContext
     {
         public DbSet<Movie> Movie { get; set; }
 
