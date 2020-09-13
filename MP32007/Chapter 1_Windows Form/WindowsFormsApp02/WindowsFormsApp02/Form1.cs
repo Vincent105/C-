@@ -17,5 +17,23 @@ namespace WindowsFormsApp02
             InitializeComponent();
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string caption, text;
+            DialogResult dialogResult;
+
+            text = textBox1.Text;
+            caption = textBox2.Text;
+
+            dialogResult = MessageBox.Show(text, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            label3.Visible = true;
+            label3.Text = dialogResult.ToString();
+        }
     }
 }
