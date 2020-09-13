@@ -24,16 +24,23 @@ namespace WindowsFormsApp02
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string caption, text;
+            string caption, text, str;
+            int age;
             DialogResult dialogResult;
 
             text = textBox1.Text;
             caption = textBox2.Text;
+            str = "今年" + textBox3.Text.ToString() + "歲";
 
-            dialogResult = MessageBox.Show(text, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            dialogResult = MessageBox.Show(str, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
             label3.Visible = true;
             label3.Text = dialogResult.ToString();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
