@@ -4,7 +4,7 @@ namespace programming_guide_02_Statements
 {
     class Program
     {
-        static void Main()
+        static void Main01()
         {
             int counter;
 
