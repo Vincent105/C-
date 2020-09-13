@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MP32007_01_WindowsForm
+namespace WindowsFormsApp02
 {
     static class Program
     {

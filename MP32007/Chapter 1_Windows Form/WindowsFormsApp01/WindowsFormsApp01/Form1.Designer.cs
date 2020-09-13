@@ -1,4 +1,4 @@
-﻿namespace MP32007_01_WindowsForm
+﻿namespace WindowsFormsApp01
 {
     partial class Form1
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MP32007_01_WindowsForm
+namespace WindowsFormsApp01
 {
     public partial class Form1 : Form
     {
