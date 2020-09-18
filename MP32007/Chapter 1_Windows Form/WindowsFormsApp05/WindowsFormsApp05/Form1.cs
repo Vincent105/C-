@@ -27,16 +27,14 @@ namespace WindowsFormsApp05
 
             label14.Text = Convert.ToString(++count);
         }
-
+        //偵測按鍵的字元型態，或區分字母大小寫
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            //可以判別大小寫
             label5.Text = Convert.ToString(e.KeyChar);
         }
-
+        //偵測放開按鍵的字元型態
         private void Form1_KeyUp(object sender, KeyEventArgs e)
-        {
-            //按鍵放開時才會異動
+        {          
             label6.Text = Convert.ToString(e.KeyData);
         }
 
