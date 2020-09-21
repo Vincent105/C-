@@ -45,12 +45,12 @@ namespace WindowsFormsApp07_ifelseNest
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
-            fgVel = true;
+            fgVel = false;
         }
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
-            fgVel = false;
+            fgVel = true;
         }
 
         private void button1_Click(object sender, EventArgs e)

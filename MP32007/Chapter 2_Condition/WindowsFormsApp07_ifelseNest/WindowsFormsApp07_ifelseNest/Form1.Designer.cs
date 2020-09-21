@@ -146,24 +146,24 @@
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(110, 34);
+            this.radioButton5.Location = new System.Drawing.Point(19, 34);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(35, 16);
             this.radioButton5.TabIndex = 1;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "否";
+            this.radioButton5.Text = "是";
             this.radioButton5.UseVisualStyleBackColor = true;
             this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(19, 34);
+            this.radioButton6.Location = new System.Drawing.Point(91, 34);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(35, 16);
             this.radioButton6.TabIndex = 0;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "是";
+            this.radioButton6.Text = "否";
             this.radioButton6.UseVisualStyleBackColor = true;
             this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
