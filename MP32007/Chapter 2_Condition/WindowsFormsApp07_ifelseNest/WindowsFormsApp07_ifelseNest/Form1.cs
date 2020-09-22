@@ -23,13 +23,13 @@ namespace WindowsFormsApp07_ifelseNest
         }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            int gender = 1;
+            gender = 1;
             groupBox2.Visible = true;
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            int gender = 0;
+            gender = 0;
             groupBox2.Visible = false;
         }
 
@@ -42,15 +42,13 @@ namespace WindowsFormsApp07_ifelseNest
         {
             fgHDC = false;
         }
-
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
-            fgVel = false;
-        }
-
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
             fgVel = true;
+        }
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            fgVel = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -85,15 +83,11 @@ namespace WindowsFormsApp07_ifelseNest
             else
             {
                 if (fgHDC == false)
-                {
-                    MessageBox.Show("尚未役畢");
-                }
+                    MessageBox.Show("尚未役畢，");
                 else
                 {
                     if (age < 25 || age > 35)
-                    {
                         MessageBox.Show("年齡不符合");
-                    }
                     else
                     {
                         if (fgVel == true)
@@ -106,6 +100,11 @@ namespace WindowsFormsApp07_ifelseNest
                     }
                 }
             }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
