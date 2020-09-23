@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F462692-88A6-4595-A57A-3825E71E91A5}</ProjectGuid>
+    <ProjectGuid>{74BC0729-9195-42A0-9E59-AE67ED6D4308}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp07_whilecontrol</RootNamespace>
-    <AssemblyName>WindowsFormsApp07_whilecontrol</AssemblyName>
+    <RootNamespace>WindowsFormsApp01_math</RootNamespace>
+    <AssemblyName>WindowsFormsApp01_math</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

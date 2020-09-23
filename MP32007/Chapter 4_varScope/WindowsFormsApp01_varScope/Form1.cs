@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp07_whilecontrol
+namespace WindowsFormsApp01_varScope
 {
     public partial class Form1 : Form
     {
-        bool fg;
+        int a = 3;
         public Form1()
         {
             InitializeComponent();
@@ -20,25 +20,16 @@ namespace WindowsFormsApp07_whilecontrol
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int i = 0;
-            fg = true;
-
-            while (fg == true)
-            {
-                i++;
-                label1.Text = i.ToString();
-                System.Threading.Thread.Sleep(10);
-                if (i == 1000)
-                    i = 0;
-
-                Application.DoEvents();
-            }
-
+            int a = 1;
+            a += 2;
+            label1.Text = "區域變數a=" + a.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            fg = false;
+            a += 5;
+            label2.Text = "全域變數a=" + a.ToString();
+
         }
     }
 }
