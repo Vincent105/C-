@@ -63,7 +63,18 @@ namespace WindowsFormsApp06_string
 
             //取代字串
             str1 = "This is a book";
-            str5 =
+            str5 = str1.Replace('o', 'x');
+            textBox1.AppendText(str5 + "\r\n");
+
+            //切割字串
+            str5 = "This is a book"; 
+            str6 = str5.Split(' ');
+            foreach (var s in str6) 
+                textBox1.AppendText(s + "\r\n");
+
+            str5 = "          This is a book";
+            textBox1.AppendText(str5.Trim() +"\r\n");
         }
+
     }
 }
