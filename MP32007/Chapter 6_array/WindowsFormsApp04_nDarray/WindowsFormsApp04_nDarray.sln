@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp03_nDarray", "WindowsFormsApp03_nDarray\WindowsFormsApp03_nDarray.csproj", "{DFF0E395-D89B-4CD1-9BFD-8E4CBEE26694}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp04_nDarray", "WindowsFormsApp03_nDarray\WindowsFormsApp04_nDarray.csproj", "{DFF0E395-D89B-4CD1-9BFD-8E4CBEE26694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
