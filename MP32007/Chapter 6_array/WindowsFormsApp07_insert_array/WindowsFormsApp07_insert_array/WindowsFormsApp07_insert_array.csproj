@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D8F5623-CD3F-4661-B03E-16DFC03DF595}</ProjectGuid>
+    <ProjectGuid>{32F69DC6-F9B5-43AF-A88B-F9811BD03269}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp05_Search_array</RootNamespace>
-    <AssemblyName>WindowsFormsApp05_Search_array</AssemblyName>
+    <RootNamespace>WindowsFormsApp07_insert_array</RootNamespace>
+    <AssemblyName>WindowsFormsApp07_insert_array</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
