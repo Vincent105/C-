@@ -57,12 +57,27 @@ namespace WindowsFormsApp08_irregular_array
             clas[1] = new int[2];
             clas[2] = new int[4];
 
-            try 
+            try
             {
                 for (int i = 0; i < 3; i++)
-                    for()
+                    for (int j = 0; j < stu_sum[i]; j++)
+                        clas[i][j] = Convert.ToInt32(dataGridView1.Rows[i].Cells[j + 1].Value);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("輸入錯誤");
+                return;
             }
 
+            for (int i = 0; i < 3; i++)
+            {
+                avg = 0;
+                for (int j = 0; j < stu_sum[i]; j++)
+                    avg += clas[i][j];
+
+                avg = avg / stu_sum[i];
+                dataGridView1.Rows[i].Cells[5].Value = avg;
+            }
         }
     }
 }
