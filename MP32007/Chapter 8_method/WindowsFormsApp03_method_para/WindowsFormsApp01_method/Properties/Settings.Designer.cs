@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp02_method.Properties {
+namespace WindowsFormsApp03_method_para.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
