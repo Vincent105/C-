@@ -35,9 +35,9 @@ namespace WindowsFormsApp08_NamedorOptional_argument
         {
             float area;
 
-            area = trapezozid(height: 40,)
+            area = trapezozid(height: 40, bBase: 50);
+            label4.Text = "area=" + area.ToString();
 
-            return area;
         }
 
         float trapezozid(float tBase = 15, float bBase = 20, float height = 10)
