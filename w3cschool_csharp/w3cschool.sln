@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_csharp-loops", "csharp-l
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_csharp-encapsulation", "09_csharp-encapsulation\09_csharp-encapsulation.csproj", "{B4E3F0E1-7F6E-459A-AA73-7FD1787479DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_csharp-methods", "10_csharp-methods\10_csharp-methods.csproj", "{637DDA21-101B-4204-8312-A755A5FE0FC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B4E3F0E1-7F6E-459A-AA73-7FD1787479DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E3F0E1-7F6E-459A-AA73-7FD1787479DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E3F0E1-7F6E-459A-AA73-7FD1787479DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

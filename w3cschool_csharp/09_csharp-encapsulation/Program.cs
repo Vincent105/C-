@@ -80,6 +80,7 @@ namespace _09_csharp_encapsulation
         internal double length2;
         internal double width2;
 
+        //成員函數 如果沒有指定訪問修飾符，則使用類成員的默認訪問修飾符private
         double GetArea()
         {
             return length2 * width2;
