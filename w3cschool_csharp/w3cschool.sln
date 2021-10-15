@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_csharp-encapsulation", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_csharp-methods", "10_csharp-methods\10_csharp-methods.csproj", "{637DDA21-101B-4204-8312-A755A5FE0FC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_csharp-nullable", "11_csharp-nullable\11_csharp-nullable.csproj", "{D2ED0BB7-031B-41B0-8795-226ECB49225A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_csharp-array", "12_csharp-array\12_csharp-array.csproj", "{7096B627-2E9E-4D27-9B79-172F3CFB0556}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637DDA21-101B-4204-8312-A755A5FE0FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ED0BB7-031B-41B0-8795-226ECB49225A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ED0BB7-031B-41B0-8795-226ECB49225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ED0BB7-031B-41B0-8795-226ECB49225A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ED0BB7-031B-41B0-8795-226ECB49225A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

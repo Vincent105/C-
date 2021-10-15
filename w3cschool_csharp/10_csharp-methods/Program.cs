@@ -10,6 +10,8 @@ namespace _10_csharp_methods
     {
         static void Main(string[] args)
         {
+            int a = 100, b = 101, c , d;
+
             NumberManipulator r = new NumberManipulator();
             r.AcceptNum();
             r.res = r.FindMax(r.numr1, r.numr2);
@@ -21,9 +23,13 @@ namespace _10_csharp_methods
             Console.WriteLine("交換後的數據a={0},b={1}", r.numr1, r.numr2);
 
             //引用參數傳遞
-            Console.WriteLine("交換前的數據a={0},b={1}", r.numr1, r.numr2);
+            Console.WriteLine("調用後的數據a={0},b={1}", r.numr1, r.numr2);
             r.Swap_ref(ref r.numr1,ref r.numr2);
-            Console.WriteLine("交換後的數據a={0},b={1}", r.numr1, r.numr2);
+            Console.WriteLine("調用後的數據a={0},b={1}", r.numr1, r.numr2);
+
+            //輸出參數傳遞-案例2
+            r.GetValue2(out c,out d);
+            Console.WriteLine("調用後的數據a={0},b={1}", c, d);
 
             //遞迴調用
             Console.WriteLine("6的階乘是{0}", r.factorial(6));
@@ -95,5 +101,20 @@ namespace _10_csharp_methods
             y = temp; 
         }
 
+        public void GetValue(out int x,out int y)
+        /*透過輸出參數，傳遞*/
+        {
+            int temp = 5;
+            x = temp;
+            y = temp + 1;
+        }
+        public void GetValue2(out int x, out int y)
+        /*透過輸出參數，傳遞-案例2*/
+        {
+            Console.WriteLine("請輸入第一個數字:");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("請輸入第二個數字:");
+            y = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
