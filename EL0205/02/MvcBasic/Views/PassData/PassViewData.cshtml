@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "PassViewData";
+}
+
+<div class="jumbotron alert-success">
+    <h2>以ViewData傳遞資料</h2>
+</div>
+
+
+<ul>
+    <li>Name : @ViewData["Name"]</li>
+    <li>Age : @((int)ViewData["Age"]+1)</li>
+    <li>Single1 : @ViewData["Single"]</li>
+    <li>Single2 : @ViewData["Test"]</li>
+    <li>Age2 : @((int)ViewData["Age2"]+50)</li>
+</ul>
+
+<hr />
+<ul>
+    @foreach (var item in ViewData)
+    {
+        <li>@item.Key :: @item.Value</li>
+    }
+</ul>
+
