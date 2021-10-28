@@ -57,7 +57,30 @@ namespace _12_csharp_array
                 i2++;
             }
 
+            /*二維陣列*/
+            int[,] a = new int[3, 4]
+                {
+                    { 0, 1, 2, 3},
+                    { 2, 3, 4, 5},
+                    { 4, 5, 6, 7},
+                };
 
+            int val = a[2, 3];
+
+            int[,] a1 = new int[5, 2] { {0,1}, { 1, 2}, { 2, 3}, { 3, 4 }, { 5, 5 }};
+
+            int i3, j3;
+
+            for (i = 0; i < 5; i++)
+            {
+                for (j = 0; j < 2; j++)
+                {
+                    Console.WriteLine("a1[{0}],[{1}]={2}",i,j,a1[i,j]);
+                }
+            }
+
+
+            Console.WriteLine(val);
             Console.ReadKey();
         }
     }
