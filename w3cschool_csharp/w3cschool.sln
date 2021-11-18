@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_csharp-nullable", "11_cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_csharp-array", "12_csharp-array\12_csharp-array.csproj", "{7096B627-2E9E-4D27-9B79-172F3CFB0556}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_csharp-string", "13_csharp-string\13_csharp-string.csproj", "{039E03B6-BFA7-4723-ABA2-443AE94BCB23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7096B627-2E9E-4D27-9B79-172F3CFB0556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039E03B6-BFA7-4723-ABA2-443AE94BCB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039E03B6-BFA7-4723-ABA2-443AE94BCB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039E03B6-BFA7-4723-ABA2-443AE94BCB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039E03B6-BFA7-4723-ABA2-443AE94BCB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
