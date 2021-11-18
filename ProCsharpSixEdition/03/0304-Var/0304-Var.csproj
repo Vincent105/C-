@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F4F4D11-639B-4C1B-96F8-2A9ED8146689}</ProjectGuid>
+    <ProjectGuid>{E6769483-C00B-4E17-A540-56DC2AFC8E8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0302_Console</RootNamespace>
-    <AssemblyName>0302-Console</AssemblyName>
+    <RootNamespace>_0304_Var</RootNamespace>
+    <AssemblyName>0304-Var</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
