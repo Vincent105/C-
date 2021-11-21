@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E6769483-C00B-4E17-A540-56DC2AFC8E8B}</ProjectGuid>
+    <ProjectGuid>{E5D0B0E6-041C-4ACF-BFB3-82356432AE4B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0304_Var</RootNamespace>
-    <AssemblyName>0304-Var</AssemblyName>
+    <RootNamespace>_0305_string</RootNamespace>
+    <AssemblyName>0305-string</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,7 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

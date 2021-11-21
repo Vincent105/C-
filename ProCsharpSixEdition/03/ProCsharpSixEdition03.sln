@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0302-Console", "0302-Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0304-Var", "0304-Var\0304-Var.csproj", "{E6769483-C00B-4E17-A540-56DC2AFC8E8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0305-string", "0305-string\0305-string.csproj", "{E5D0B0E6-041C-4ACF-BFB3-82356432AE4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E6769483-C00B-4E17-A540-56DC2AFC8E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6769483-C00B-4E17-A540-56DC2AFC8E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6769483-C00B-4E17-A540-56DC2AFC8E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D0B0E6-041C-4ACF-BFB3-82356432AE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D0B0E6-041C-4ACF-BFB3-82356432AE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D0B0E6-041C-4ACF-BFB3-82356432AE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D0B0E6-041C-4ACF-BFB3-82356432AE4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

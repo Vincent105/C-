@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ namespace _0304_Var
         {
             LocalVarDeclarations();
             UseDateAndTime();
+            UseBigInt();
             Console.ReadKey();
         }
 
@@ -67,6 +69,24 @@ namespace _0304_Var
 
             dt = dt.AddDays(30);
             Console.WriteLine("{0}",dt.Day);
+
+            TimeSpan ts = new TimeSpan(4, 20, 30);
+            Console.WriteLine("{0}", ts);
+            Console.WriteLine(ts.Subtract(new TimeSpan(0, 10, 0)));
+        }
+
+        static void UseBigInt()
+        {
+            Console.WriteLine("=> UseBigInt:");
+            
+            BigInteger biggy = BigInteger.Parse("99999999999");
+            Console.WriteLine("Value is {0}",biggy);
+            Console.WriteLine("Value is {0}", biggy.IsEven);
+            Console.WriteLine("Value is {0}", biggy.IsPowerOfTwo);
+
+            BigInteger reallyBig = BigInteger.Parse("8888888888");
+            Console.WriteLine("Value is {0}", reallyBig);
+
         }
     }
 }
