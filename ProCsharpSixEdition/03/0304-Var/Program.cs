@@ -21,17 +21,17 @@ namespace _0304_Var
         {
             int myInt = 1;
             string myString = "This is my data.";
-            bool b1 = true, b2 = false, b3 =  true;
+            bool b1 = true, b2 = false, b3 = true;
             System.Boolean b4 = false;
 
-            Console.WriteLine("{0},{1},{2},{3},{4},{5}",myInt, myString, b1, b2, b3, b4);
+            Console.WriteLine("{0},{1},{2},{3},{4},{5}", myInt, myString, b1, b2, b3, b4);
 
             bool b = new bool(); //設置初始值為false
             int i = new int(); //設置為0
             double d = new double();
             DateTime dt = new DateTime();
 
-            Console.WriteLine("{0},{1},{2},{3}", b,i,d,dt);
+            Console.WriteLine("{0},{1},{2},{3}", b, i, d, dt);
 
             Console.WriteLine("{0}", 12.GetHashCode());
             Console.WriteLine("{0}", 12.Equals(23));
@@ -46,8 +46,8 @@ namespace _0304_Var
             Console.WriteLine("{0}", double.PositiveInfinity);
             Console.WriteLine("{0}", double.NegativeInfinity);
 
-            Console.WriteLine("{0}",bool.TrueString);
-            Console.WriteLine("{0}",bool.FalseString);
+            Console.WriteLine("{0}", bool.TrueString);
+            Console.WriteLine("{0}", bool.FalseString);
 
             //型別強制轉換
             Console.WriteLine("=> Data type parsing:");
@@ -64,11 +64,11 @@ namespace _0304_Var
         {
             Console.WriteLine("=> Dates and Times:");
 
-            DateTime dt = new DateTime(2021,11,19,01,01,01);
-            Console.WriteLine("{0},{1}",dt.Date,dt.DayOfWeek);
+            DateTime dt = new DateTime(2021, 11, 19, 01, 01, 01);
+            Console.WriteLine("{0},{1}", dt.Date, dt.DayOfWeek);
 
             dt = dt.AddDays(30);
-            Console.WriteLine("{0}",dt.Day);
+            Console.WriteLine("{0}", dt.Day);
 
             TimeSpan ts = new TimeSpan(4, 20, 30);
             Console.WriteLine("{0}", ts);
@@ -78,9 +78,9 @@ namespace _0304_Var
         static void UseBigInt()
         {
             Console.WriteLine("=> UseBigInt:");
-            
+
             BigInteger biggy = BigInteger.Parse("99999999999");
-            Console.WriteLine("Value is {0}",biggy);
+            Console.WriteLine("Value is {0}", biggy);
             Console.WriteLine("Value is {0}", biggy.IsEven);
             Console.WriteLine("Value is {0}", biggy.IsPowerOfTwo);
 
