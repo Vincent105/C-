@@ -34,11 +34,20 @@ namespace _0404_struct
             Point myPoint;
             myPoint.x = 349;
             myPoint.y = 76;
-            myPoint.Display();
+            myPoint.Display();  //使用前必須針對兩個變數進行賦值
 
             myPoint.Decrement();
             myPoint.Display();
+
+            Point myPoint2 = new Point();   //使用預設建構函數，將兩個變數設定為預設值
+            myPoint2.Display();
+
+
+
+
             Console.ReadKey();
+
+
         }
     }
 }
